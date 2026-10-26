@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Binary Decode & Search",
+  "version": "1.0.0",
+  "description": "Highlight binary text, right-click, and search Google for the decoded text.",
+  "permissions": ["contextMenus", "notifications"],
+  "background": {
+    "service_worker": "background.js",
+    "scripts": ["decode.js", "background.js"]
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "binary-decode-search@MikeMayer3",
+      "strict_min_version": "121.0"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "binary-decode-search",
+  "private": true,
+  "scripts": {
+    "test": "node test/decode.test.js",
+    "package": "bash scripts/package.sh"
+  }
+}
